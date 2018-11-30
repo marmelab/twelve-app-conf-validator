@@ -1,0 +1,25 @@
+{
+  "name": "12-factor-conf-validator",
+  "version": "1.0.0",
+  "description": "Validation of the environment variables injected into a container",
+  "main": "index.js",
+  "repository": "https://github.com/marmelab/marmelab.github.io/12-factor-conf-validator",
+  "author": "Alexis Janvier <alexis@marmelab.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "conf:display": "node src display",
+    "conf:validate": "node src validate",
+    "conf:create": "node src create"
+  },
+  "dependencies": {
+    "convict": "4.4.0",
+    "signale": "1.3.0"
+  },
+  "devDependencies": {
+    "eslint": "5.9.0",
+    "eslint-config-prettier": "3.3.0",
+    "eslint-plugin-prettier": "3.0.0",
+    "prettier": "1.15.3"
+  }
+}
