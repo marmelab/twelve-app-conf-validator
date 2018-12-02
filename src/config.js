@@ -8,20 +8,20 @@ const isNotEmpty = val => {
 
 const config = convict({
     NODE_ENV: {
-        default: 'development',
+        default: '',
         doc: 'The application environment.',
         env: 'NODE_ENV',
         format: ['production', 'development', 'test'],
     },
     POSTGRES_PASSWORD: {
         default: '',
-        doc: "postgreSQL's user password",
+        doc: "PostgreSQL's user password",
         env: 'POSTGRES_PASSWORD',
         format: isNotEmpty,
     },
     POSTGRES_USER: {
         default: '',
-        doc: "postgreSQL's user",
+        doc: "PostgreSQL's user",
         env: 'POSTGRES_USER',
         format: isNotEmpty,
     },

@@ -15,7 +15,7 @@ build: get-current-version ## Build docker image
 		-t myapp_conf_validation:latest \
 		.
 create-config-file: ## Create the myenv.env file
-	docker run --rm -it myapp_conf_validation:latest ash -ci 'node src create' > myenv.env
+	docker run --rm -it myapp_conf_validation:latest ash -ci 'node index.js create' > myenv.env
 
 validate-config-file: ## Validate the myenv.env file
 	docker run --rm -it --env-file=myenv.env myapp_conf_validation:latest
