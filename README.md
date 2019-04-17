@@ -1,6 +1,10 @@
-> ![alt text](http://3.121.36.10:3000/favicon.ico "Marmelab") **Archived Repository**    
-The code of this repository was written to illustrate the blog post [Twelve-Factor Applications: How Do You Validate Your Configuration?](https://marmelab.com/blog/2018/12/05/twelve-factor-applications-how-do-you-validate-your-configuration.html).     
-**This code is not intended to be used in production, and is not maintained.**
+<table>
+        <tr>
+            <td><img width="40" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/info.svg" alt="archived" /></td>
+            <td><strong>Archived Repository</strong><br />
+            the code of this repository was written to illustrate the blog post [Twelve-Factor Applications: How Do You Validate Your Configuration?]</td>
+        </tr>
+</table>
 
 # Validate your configuration for your twelve-factor applications
 
